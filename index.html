@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="dashboard">
+      <header>
+        <h1>User Dashboard</h1>
+      </header>
+      <main>
+        <section class="widgets">
+        </section>
+      </main>
+    </div>
+      
+    <!-- <script src="main.js"> </script> -->  
+    
+     <script type="module">
+      import init, { run } from './pkg/dashboard.js';
+      init().then(run);
+    </script> 
+  </body>
+</html>
